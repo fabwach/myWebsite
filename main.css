@@ -2,7 +2,6 @@
   box-sizing: border-box;
   transition: .5s ease-in-out;
 }
-
 html, body {
   background-color: rgba(1,98,149,0.4);
   height: 100%;
@@ -20,7 +19,6 @@ html h2, body h2 {
   font-size: 15px;
   color: #0077b5;
 }
-
 #wrapper {
   opacity: 0;
   display: table;
@@ -35,14 +33,14 @@ html h2, body h2 {
   display: table-cell;
   vertical-align: middle;
 }
-
 #card {
   height: 400px;
+  overflow: hidden;
   width: 300px;
   margin: 0 auto;
   position: relative;
-  z-index: 1;
-  perspective: 600px;
+  z-index: 2;
+  /*perspective: 600px;*/
 }
 #card #front, #card #back {
   border-radius: 10px;
@@ -58,7 +56,7 @@ html h2, body h2 {
 #card #front {
   transform: rotateY(0deg);
   overflow: hidden;
-  z-index: 1;
+  z-index: 2;
 }
 #card #front #arrow {
   position: absolute;
@@ -110,15 +108,16 @@ html h2, body h2 {
   font-size: 18px;
   text-align: center;
 }
-#card #social-bar a {
+#card #social-bar a, #card #social-bar div {
   display: inline-block;
   color: #0077b5;
   text-decoration: none;
   padding: 5px;
   line-height: 18px;
   border-radius: 5px;
+  cursor: pointer;
 }
-#card #social-bar a:hover {
+#card #social-bar a:hover, #card #social-bar div:hover {
   color: #450300;
   background: rgba(255, 255, 255, 0.3);
   transition: .25s ease-in-out;
@@ -129,9 +128,8 @@ html h2, body h2 {
   display: table;
   z-index: 2;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 19px;
   padding: 30px 50px 50px 50px;
-
 }
 #card #back .back-info {
   text-align: justify;
@@ -149,7 +147,6 @@ html h2, body h2 {
 #card.flip #back {
   transform: rotateY(360deg);
 }
-
 #background {
   position: fixed;
   background-color: black;
@@ -168,7 +165,6 @@ html h2, body h2 {
   background-image: url("img/euratech.jpg");
   background-size: cover;
 }
-
 @keyframes arrowWiggle {
   0% {
     right: 50px;

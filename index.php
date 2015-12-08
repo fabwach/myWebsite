@@ -38,14 +38,14 @@
 						  	<a href="https://www.linkedin.com/in/fabienwacheux" target="_blank">
 						  		<i class="fa fa-linkedin"></i>
 						  	</a>
-						  	<a href="javascript:void" class="more-info">
+						  	<div class="more-info">
 						   		<i class="fa fa-user"></i>
-						  	</a>
+						  	</div>
 						</div>
 		      		</div>
 		      		<div id="back">
 		        		<div class="back-info">
-		          			<p>My name is Fabien Wacheux, and I'm producer for V-Cult, based at Euratechnologies in Lille, France. V-Cult is focus on Virtual Reality and develops a disruptive 3D web technology, fully browser-based, requiring no download and available on all OS and devices. V-Cult edits especially Beloola, the first fully web-based immersive platform to connect like-minded people anywhere and anytime they want. As for me, I'm in the same time web developer & manager. I'm working on new web technologies</p>
+		          			<p>My name is Fabien Wacheux, and I'm working at V-Cult, based at Euratechnologies in Lille, France. V-Cult is focus on Virtual Reality and develops a disruptive 3D web technology, fully browser-based, requiring no download and available on all OS and devices. V-Cult edits especially Beloola, the first fully web-based immersive platform to connect people anywhere and anytime they want. As for me, I'm in the same time web developer & manager. I love working on new web technologies</p>
 		        		</div>
 		        		<div id="social-bar">
 						  	<a href="https://www.facebook.com/fabien.wacheux" target="_blank">
@@ -60,9 +60,9 @@
 						  	<a href="https://www.linkedin.com/in/fabienwacheux" target="_blank">
 						  		<i class="fa fa-linkedin"></i>
 						  	</a>
-						  	<a href="javascript:void" class="more-info">
+						  	<div class="more-info">
 								<i class="fa fa-undo"></i>
-							</a>
+							</div>
 						</div>
 		      		</div>
 		    	</div>
