@@ -6,7 +6,6 @@
 html, body {
   background-color: rgba(1,98,149,0.4);
   height: 100%;
-  overflow: hidden;
   font-family: helvetica neue,helvetica,arial,sans-serif;
   margin: 0;
 }
